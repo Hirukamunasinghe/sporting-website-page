@@ -130,6 +130,10 @@ scrollbar-width: none;  /* Firefox */
     gap: 8px;
 }
 
+.play-button-btn:hover{
+    background-color: #ecf568;
+}
+
 .play-button-btn  {
     cursor: pointer;
     border: none;
@@ -198,4 +202,44 @@ scrollbar-width: none;  /* Firefox */
     justify-content: center;
     align-items: center;
     color: #e3e3e3;
+}
+
+/* CONTACT SECTION */
+#contact-section{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+}
+
+.form-box{
+    width: 50%;
+    border-radius: 1px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid gray;
+}
+
+.send-button{
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.4s;
+    color: black;
+}
+
+.send-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.subheading{
+    margin-bottom: 10px;
 }
