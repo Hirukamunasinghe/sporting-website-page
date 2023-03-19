@@ -120,8 +120,8 @@ scrollbar-width: none;  /* Firefox */
 }
 
 .buy-now-btn:hover {
-    background-color:  #383838;
-    color: #f7f7f7;
+    background-color:  yellow;
+    color: black;
 }
 
 .play-button-area {
