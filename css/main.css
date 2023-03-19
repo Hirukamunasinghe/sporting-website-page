@@ -242,7 +242,7 @@ scrollbar-width: none;  /* Firefox */
     display: grid;
     grid-template-rows: 1fr 1fr;
     width: 375px;
-    height: 445px;
+    height: 440px;
     border-radius: 5px;
     background-color: gray;
     margin-top: -200px;
@@ -251,8 +251,17 @@ scrollbar-width: none;  /* Firefox */
     box-shadow: 0.5px gray;
 }
 
+.sports-card:hover {
+    transform: translateY(-0.9%);
+    box-shadow: 0 4rem 8rem rgba(white);
+}
+
+#card-section{
+    margin-top: 20px;
+}
+
 #card-section-two{
-    margin-top: -250px;
+    margin-top: -260px;
 }
 
 .card-para{
@@ -261,14 +270,11 @@ scrollbar-width: none;  /* Firefox */
     font-style: italic;
 }
 
+
 #rate-us-section{
-    margin-top: -140px;
+    margin-top: -150px;
 }
 
-.sports-card:hover {
-    transform: translateY(-0.9%);
-    box-shadow: 0 4rem 8rem rgba(white);
-}
 
 .card-btn{
     width: 40%;
