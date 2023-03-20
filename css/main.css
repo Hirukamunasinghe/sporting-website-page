@@ -7,6 +7,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -117,17 +118,22 @@ scrollbar-width: none;  /* Firefox */
     font-size: 16px;
     font-weight: 500;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .buy-now-btn:hover {
-    background-color:  #383838;
-    color: #f7f7f7;
+    background-color:  yellow;
+    color: black;
 }
 
 .play-button-area {
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+.play-button-btn:hover{
+    background-color: #ecf568;
 }
 
 .play-button-btn  {
@@ -198,4 +204,140 @@ scrollbar-width: none;  /* Firefox */
     justify-content: center;
     align-items: center;
     color: #e3e3e3;
+}
+
+.comments-button{
+    width: 40%;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: 0.2s;
+    letter-spacing: 0.1rem;
+    margin-top: 15px;
+}
+
+.comments-button:hover{
+    background-color: #ecf568;
+}
+
+
+/* Cards Section */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    column-gap: 4rem;
+    background-color: antiquewhite;
+}
+
+.sports-card{
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 375px;
+    height: 440px;
+    border-radius: 5px;
+    background-color: gray;
+    margin-top: -200px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0.5px gray;
+}
+
+.sports-card:hover {
+    transform: translateY(-0.9%);
+    box-shadow: 0 4rem 8rem rgba(white);
+}
+
+#card-section{
+    margin-top: 20px;
+}
+
+#card-section-two{
+    margin-top: -260px;
+}
+
+.card-para{
+    text-align: center;
+    color: yellow;
+    font-style: italic;
+}
+
+
+#rate-us-section{
+    margin-top: -150px;
+}
+
+
+.card-btn{
+    width: 40%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    transition: 0.2s;
+    letter-spacing: 0.1rem;
+    margin-top: 15px;
+}
+
+.card-btn:hover,
+.card-btn:active {
+    color: black;
+    background-color: #ecf568;
+}
+
+.image{
+    width: 100%;
+    box-shadow: 0.5px gray;
+}
+
+
+/* CONTACT SECTION */
+#contact-section{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+}
+
+.form-box{
+    width: 50%;
+    border-radius: 1px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid gray;
+}
+
+.send-button{
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.4s;
+    color: black;
+}
+
+.send-button:hover{
+    background-color: #ecf568;
+    color: black;
+}
+
+.subheading{
+    margin-bottom: 10px;
 }
