@@ -194,7 +194,7 @@ scrollbar-width: none;  /* Firefox */
     top: 200px;
     padding: 20px;
     color: #ededed;
-    border: 20px solid #ececec;
+    border: 20px solid #ecf568;
 }
 
 .rate-us {
@@ -234,7 +234,7 @@ scrollbar-width: none;  /* Firefox */
     height: 100vh;
     text-align: center;
     column-gap: 4rem;
-    background-color: antiquewhite;
+    background-color: lightgray;
 }
 
 .sports-card{
@@ -244,16 +244,22 @@ scrollbar-width: none;  /* Firefox */
     width: 375px;
     height: 440px;
     border-radius: 5px;
-    background-color: gray;
+    background-color: white;
     margin-top: -200px;
     cursor: pointer;
-    color: white;
-    box-shadow: 0.5px gray;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .sports-card:hover {
     transform: translateY(-0.9%);
     box-shadow: 0 4rem 8rem rgba(white);
+}
+
+.image{
+    width: 100%;
+    box-shadow: 0.5px gray;
+    border-radius: 5px;
 }
 
 #card-section{
@@ -266,7 +272,7 @@ scrollbar-width: none;  /* Firefox */
 
 .card-para{
     text-align: center;
-    color: yellow;
+    color: black;
     font-style: italic;
 }
 
@@ -296,10 +302,7 @@ scrollbar-width: none;  /* Firefox */
     background-color: #ecf568;
 }
 
-.image{
-    width: 100%;
-    box-shadow: 0.5px gray;
-}
+
 
 
 /* CONTACT SECTION */
