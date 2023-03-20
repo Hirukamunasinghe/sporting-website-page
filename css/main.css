@@ -21,6 +21,21 @@ body {
 scrollbar-width: none;  /* Firefox */
 }
 
+.v-center {
+    display: flex;
+    align-items: center;
+}
+
+.d-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pb-10px {
+    padding-bottom: 10px;
+}
+
 /* navigation bar styles */
 .nav {
     display: flex;
@@ -122,8 +137,8 @@ scrollbar-width: none;  /* Firefox */
 }
 
 .buy-now-btn:hover {
-    background-color:  yellow;
-    color: black;
+    background-color:  rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
 }
 
 .play-button-area {
@@ -165,7 +180,7 @@ scrollbar-width: none;  /* Firefox */
 
 .hero-context-card h2 {
     font-family: 'Russo One', sans-serif;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 .hero-context-card img {
@@ -206,138 +221,95 @@ scrollbar-width: none;  /* Firefox */
     color: #e3e3e3;
 }
 
+.rate-us h2 {
+    font-family: 'Russo One', sans-serif;
+    padding-bottom: 8px;
+}
+
 .comments-button{
-    width: 40%;
-    padding: 0.4rem;
-    font-size: 0.8rem;
-    text-align: center;
-    color: black;
-    background-color: white;
-    border-radius: 0.7rem;
-    cursor: pointer;
-    transition: 0.2s;
-    letter-spacing: 0.1rem;
-    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ecf568;
+    color: #101010;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 0.4s;
+    font-weight: 500;
 }
 
 .comments-button:hover{
-    background-color: #ecf568;
+    background-color: #ffffff;
+    color: #101010;
 }
 
-
-/* Cards Section */
-.container {
+.news-letter-title {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    column-gap: 4rem;
-    background-color: antiquewhite;
+    padding: 80px 0px 40px 0px;
 }
 
-.sports-card{
-    border-radius: 20px;
+.news-letter-title-holder {
+    display: flex;
+    gap: 10px;
+}
+
+.news-letter-title-text {
+    font-family: 'Russo One', sans-serif;
+    font-size: 70px;
+}
+
+.new-letter-cards {
+   padding-top: 10px;
+   width: 300px;
+   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+   border-radius: 3px;
+}
+
+.sport-image.one {
+    background-image: url(/images/sports/cricket.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 180px;
+    margin-top: 10px;
+}
+.sport-image.two {
+    background-image: url(/images/sports/basketball.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 180px;
+    margin-top: 10px;
+}
+.sport-image.three {
+    background-image: url(/images/sports/football.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 180px;
+    margin-top: 10px;
+}
+.sport-image.four {
+    background-image: url(/images/sports/tennis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 180px;
+    margin-top: 10px;
+}
+
+.new-card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.new-letter-cards p {
+    padding: 10px 10px;
+}
+
+.news-letter-grid {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    width: 375px;
-    height: 440px;
-    border-radius: 5px;
-    background-color: gray;
-    margin-top: -200px;
-    cursor: pointer;
-    color: white;
-    box-shadow: 0.5px gray;
-}
-
-.sports-card:hover {
-    transform: translateY(-0.9%);
-    box-shadow: 0 4rem 8rem rgba(white);
-}
-
-#card-section{
-    margin-top: 20px;
-}
-
-#card-section-two{
-    margin-top: -260px;
-}
-
-.card-para{
-    text-align: center;
-    color: yellow;
-    font-style: italic;
-}
-
-
-#rate-us-section{
-    margin-top: -150px;
-}
-
-
-.card-btn{
-    width: 40%;
-    padding: 0.4rem;
-    font-size: 1rem;
-    text-align: center;
-    color: black;
-    background-color: white;
-    border-radius: 0.7rem;
-    cursor: pointer;
-    transition: 0.2s;
-    letter-spacing: 0.1rem;
-    margin-top: 15px;
-}
-
-.card-btn:hover,
-.card-btn:active {
-    color: black;
-    background-color: #ecf568;
-}
-
-.image{
-    width: 100%;
-    box-shadow: 0.5px gray;
-}
-
-
-/* CONTACT SECTION */
-#contact-section{
-    text-align: center;
-    margin-top: 20px;
-}
-
-.form-group{
-    display: flex;
-    justify-content: center;
-}
-
-.form-box{
-    width: 50%;
-    border-radius: 1px;
-    padding: 10px;
-    margin-bottom: 25px;
-    border: 1px solid gray;
-}
-
-.send-button{
-    border: 1px solid black;
-    cursor: pointer;
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 500;
-    transition: 0.4s;
-    color: black;
-}
-
-.send-button:hover{
-    background-color: #ecf568;
-    color: black;
-}
-
-.subheading{
-    margin-bottom: 10px;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 40px;
 }
