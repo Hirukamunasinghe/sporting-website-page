@@ -232,7 +232,7 @@ scrollbar-width: none;  /* Firefox */
     width: 100%;
     height: 100vh;
     text-align: center;
-    background-color: darkgray;
+    background-color: lightgray;
     column-gap: 3rem;
 }
 
@@ -243,7 +243,7 @@ scrollbar-width: none;  /* Firefox */
     width: 375px;
     height: 440px;
     border-radius: 5px;
-    background-color: lightgray;
+    background-color: darkgray;
     margin-top: -200px;
     cursor: pointer;
     color: black;
@@ -255,7 +255,6 @@ scrollbar-width: none;  /* Firefox */
     box-shadow: 0 4rem 8rem rgba(gray);
 }
 
-
 .news-letter-title-text {
     font-family: 'Russo One', sans-serif;
     font-size: 70px;
@@ -263,7 +262,8 @@ scrollbar-width: none;  /* Firefox */
 
 .image{
     width: 100%;
-    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 #card-section{
