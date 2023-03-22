@@ -313,3 +313,75 @@ scrollbar-width: none;  /* Firefox */
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 40px;
 }
+
+/* Footer css */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #303030;
+    color: #e3e3e3;
+}
+
+.footer-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 30px 0px 20px 0;
+}
+
+.footer-container-one ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-container-one ul li {
+    text-decoration: none;
+    padding-block: 6px;
+}
+
+.footer-container-one ul li a{
+    text-decoration: none;
+    color: #e3e3e3;
+    font-size: 14px;
+}
+
+.footer-container-one ul li a:hover {
+    color: #ecf568;
+}
+
+.footer-container-two p {
+    width: 200px;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.footer-btn-holder {
+    display: flex;
+    gap: 6px;
+}
+
+.footer-btn-holder input {
+    padding: 5px;
+    display: inline-block;
+}
+
+.footer-btn-holder a {
+    display: inline-block;
+    padding: 5px;
+    background-color: #ecf568;
+    color: #303030;
+    text-decoration: none;
+}
+
+.footer-bottom-text {
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #101010;
+}
+
+.footer-bottom-text p {
+    color: #e3e3e3;
+    padding-block: 5px;
+}
