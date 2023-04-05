@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  html{
+    width: 100%;
+    height: 300vh;
+  }
+  
+  body{
+    background-color: black;
+    width: 100%;
+  }
+  
+  /* /-------------------------Body-------------------------/ */
+  body h1{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 4vh;
+  }
+  
+  .main-content{
+    padding-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .content-child-title p,
+  .content-child p{
+    color: white;
+    text-align: center;
+  }
+  
+  .content-child-title{
+    padding-top: 4vh;
+  }
+  
+  .content-child{
+    padding-bottom: 9vh;
+    padding-top: 5vh;
+  }
+  
+  hr{
+    color: white;
+    width: 140vh;
+  }
+

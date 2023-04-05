@@ -5,42 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Athlete</title>
+    <title>Sports Hub</title>
     <!--Linking SCSS generated CSS3 file-->
     <Link rel="stylesheet" type="text/css" href="css/main.css">
     <!--icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script
+    src="https://kit.fontawesome.com/5daa8eb347.js"
+    crossorigin="anonymous"
+  ></script>
+
 </head>
 
 <body>
     <!--Navigation Start-->
     <header>
         <div class="nav">
-            <div class="nav-logo"></div>
+            <div class="nav-logo">
+                <img src="images/logo/sports-logo.jpg" class="image-logo" alt="logo-image">
+            </div>
             <div class="nav-links">
                 <ul class="nav-links-list">
                     <li class="nav-links-list-child">
-                        <a href="index.html">Home</a>
+                        <a href="/" class="home-link">Home</a>
                     </li>
                     <li class="nav-links-list-child">
-                        <a href="#rate-us-section">Comments</a>
+                        <a href="#rate-us-section" class="">Comments</a>
                     </li>
                     <li class="nav-links-list-child">
                         <a href="#">Shop</a>
                     </li>
                     <li class="nav-links-list-child">
-                        <a href="#">Quiz</a>
+                        <a href="">Quiz</a>
                     </li>
                     <li class="nav-links-list-child">
                         <a href="#">Site Map</a>
                     </li>
                     <li class="nav-links-list-child">
-                        <a href="#">About Us</a>
+                        <a href="">About Us</a>
                     </li>
+                    <input type="text" placeholder="Search" class="search-bar">
                 </ul>
             </div>
             <div class="nav-cart">
-                <button class="nav-cart-button"><i class="bi bi-bag"></i></button>
+                <button class="nav-cart-button"><i class="fa-solid fa-cart-shopping"></i></button>
             </div>
         </div>
     </header>
@@ -70,13 +79,11 @@
                 <div class="hero-context">
                     <div class="hero-context-p">
                         <p class="hero-context-p-para">
-                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
-                            of classical Latin literature from 45 BC, making it over 2000 years old.
+                            Welcome to SportsHub! Navigate though our website to find amazing deals and offers for your sporting equipments. 
                         </p>
                         <div class="play-button-area">
                             <p class="play-button-text">Scroll Down</p>
-                            <a href="#card-section"><button class="play-button-btn"><i
-                                        class="bi bi-arrow-down"></i></button></a>
+                            <a href="#rate-us-section"><button class="play-button-btn"><i class="bi bi-arrow-down"></i></button></a>
                         </div>
                     </div>
                     <div class="hero-context-card">
@@ -87,65 +94,101 @@
             </div>
         </div>
     </section>
-    <!-- Cards Section -->
-    <section id="card-section">
-        <div class="container">
-            <div class="sports-card">
-                <div class="sports-card-img">
-                    <img src="images/sports/cricket.jpg" class="image">
-                </div>
-                <div class="sports-card-content">
-                    <h1>Cricket</h1>
-                    <p class="card-para">Click the link below to explore exiting things about cricket!</p>
-                    <button class="card-btn">Read more <span>&rarr;</span></button>
-                </div>
-            </div>
-            <div class="sports-card">
-                <div class="sports-card-img">
-                    <img src="images/sports/tennis.jpg" class="image">
-                </div>
-                <div class="sports-card-content">
-                    <h1>Tennis</h1>
-                    <p class="card-para">Click the link below to explore exiting things about tennis!</p>
-                    <button class="card-btn">Read more <span>&rarr;</span></button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="card-section-two">
-        <div class="container">
-            <div class="sports-card">
-                <div class="sports-card-img">
-                    <img src="images/sports/football.jpg" class="image">
-                </div>
-                <div class="sports-card-content">
-                    <h1>Football</h1>
-                    <p class="card-para">Click the link below to explore exiting things about football!</p>
-                    <button class="card-btn">Read more <span>&rarr;</span></button>
-                </div>
-            </div>
-            <div class="sports-card">
-                <div class="sports-card-img">
-                    <img src="images/sports/basketball.jpg" class="image">
-                </div>
-                <div class="sports-card-content">
-                    <h1>Basketball</h1>
-                    <p class="card-para">Click the link below to explore exiting things about basketball!</p>
-                    <button class="card-btn">Read more <span>&rarr;</span></button>
-                </div>
-            </div>
-        </div>
-    </section>
     <!--Rate Us Section-->
     <section id="rate-us-section">
         <div class="rate-us">
             <div>
-                <h2>Welcome to K2 Sports E-Commerce website..</h4>
-                    <p>Please rate our service so more customers can visit our page.</p>
-                    <a href="comments.html"><button class="comments-button">To Comment Section</button></a>
+                <h2>Welcome to Sports Hub E-Commerce website..</h2>
+                <p>Please rate our service so more customers can visit our page.</p>
+                <a href="comments.html" class="comments-button">To Comments Section</a>
             </div>
         </div>
     </section>
-</body>
+    <!-- card section -->
+    <section id="news-letter">
+        <div class="news-letter-title">
+            <div class="news-letter-title-holder">
+                <div class="v-center"><h2 class="news-letter-title-text">SPORTS</h2></div>
+            </div>
+        </div>
+        <div class="d-flex-center">
+            <div class="news-letter-grid">
+                <div class="new-letter-cards">
+                    <h2 class="new-card-title">Cricket</h2>
+                    <div class="sport-image one"></div>
+                    <p class="sport-description">
+                        Click the link below to explore amazing details about cricket!
+                    </p>
+                    <div class="d-flex-center pb-10px">
+                        <a href="additional-content-page-cricket.html" class="comments-button">Visit Content Page</a>
+                    </div>
+                </div>
+                <div class="new-letter-cards">
+                    <h2 class="new-card-title">Tennis</h2>
+                    <div class="sport-image two">
+                    </div>
+                    <p class="sport-discription">
+                        Click the link below to explore amazing details about cricket!
+                    </p>
+                    <div class="d-flex-center pb-10px">
+                        <a href="" class="comments-button">Visit Content Page</a>
+                    </div>
+                </div>
+                <div class="new-letter-cards">
+                    <h2 class="new-card-title">Basketball</h2>
+                    <div class="sport-image three"></div>
+                    <p class="sport-discription">
+                        Click the link below to explore amazing details about basketball!
+                    </p>
+                    <div class="d-flex-center pb-10px">
+                        <a href="/" class="comments-button">Visit Content Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="new-letter-cards football">
+                <h2 class="new-card-title">Football</h2>
+                <div class="sport-image four"></div>
+                <p class="sport-discription">
+                    Click the link below to explore amazing details about football!
+                </p>
+                <div class="d-flex-center pb-10px">
+                    <a href="/" class="comments-button">Visit Content Page</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Footer section -->
+    <section id="web-footer">
+        <div class="footer">
+            <div class="footer-holder">
+                <div class="footer-container-one">
+                    <h4>Important website links</h4>
+                    <ul>
+                        <li><a href="/index.html">Home Page</a></li>
+                        <li><a href="/comments.html">Comments</a></li>
+                        <li><a href="/">Quiz</a></li>
+                        <li><a href="/">Shop</a></li>
+                        <li><a href="/">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-container-two">
+                    <h4>2023, inc, Sports Hub, All rights reserved</h4>
+                    <div class="icons-div">
+                        <a><i class="fa-brands fa-instagram icon-button insta"></i></a>
+                        <a><i class="fa-brands fa-facebook icon-button fb"></i></a>
+                        <a><i class="fa-brands fa-twitter icon-button twitter"></i></a>
+                        <a><i class="fa-brands fa-youtube icon-button youtube"></i></a>
+                    </div>
+                    <div class="page-editor-btn-div">
+                    <a href="page-editor.html"><button class="page-editor-button">Page Editor</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-text">
+            <p>Developed for 2023 Web Design Coursework</p>
+        </div>
+    </section>
+</body>
 </html>
